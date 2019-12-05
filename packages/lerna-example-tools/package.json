@@ -1,0 +1,34 @@
+{
+  "name": "@wangjuncode/lerna-example-tools",
+  "version": "1.0.0",
+  "description": "thisi is a demo, don't use it",
+  "author": "wangjuncode <wangjuncode@126.com>",
+  "homepage": "https://github.com/wang-jun-coder/lerna-example#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "__tests__"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wang-jun-coder/lerna-example.git"
+  },
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "test:cov": "jest --config jestconfig.json --coverage",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "bugs": {
+    "url": "https://github.com/wang-jun-coder/lerna-example/issues"
+  }
+}
