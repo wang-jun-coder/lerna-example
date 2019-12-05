@@ -101,3 +101,4 @@
 		* `yarn add -W -D @commitlint/cli @commitlint/config-conventional commitizen cz-lerna-changelog lint-staged husky`
 	* commitizen, cz-lerna-changelog 规范化提交记录
 	* commitlint, husky 提交前校验提交信息是否符合规范
+	* tslint 校验代码风格
