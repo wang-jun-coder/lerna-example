@@ -1,6 +1,6 @@
 {
   "name": "@wangjuncode/lerna-example",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "this is a demo, don't use it",
   "author": "wangjuncode <wangjuncode@126.com>",
   "homepage": "https://github.com/wang-jun-coder/lerna-example#readme",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@wangjuncode/lerna-example-module": "^1.0.2",
-    "@wangjuncode/lerna-example-tools": "^1.0.3"
+    "@wangjuncode/lerna-example-tools": "^1.0.4"
   },
   "gitHead": "23d34acae164d97e3576de08d5f36a8b8ac693d7"
 }

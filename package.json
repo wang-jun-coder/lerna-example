@@ -11,7 +11,7 @@
     }
   },
   "lint-staged": {
-    "packages/**/*.{ts,json}": [
+    "packages/**/*.{ts}": [
       "tslint --fix -c tslint.json",
       "git add"
     ]
