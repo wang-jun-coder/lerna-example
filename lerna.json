@@ -8,7 +8,7 @@
   	"publish": {
   		"ignoreChanges": ["*.md"],
   		"message": "chore(none): publish",
-  		"registry": "registry.npmjs.org"
+  		"registry": "https://registry.npmjs.org"
   	}
   },
   "version": "independent"

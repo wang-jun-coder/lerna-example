@@ -33,5 +33,6 @@
   "dependencies": {
     "@wangjuncode/lerna-example-module": "^1.0.1",
     "@wangjuncode/lerna-example-tools": "^1.0.1"
-  }
+  },
+  "gitHead": "fc7ddd425e9f107088a885154e53b8a34b76c64c"
 }
