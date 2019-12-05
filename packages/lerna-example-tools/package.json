@@ -11,8 +11,7 @@
     "test": "__tests__"
   },
   "files": [
-    "lib",
-    "__tests__"
+    "lib"
   ],
   "publishConfig": {
     "access": "public"
@@ -26,7 +25,8 @@
     "test:cov": "jest --config jestconfig.json --coverage",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
-    "lint": "tslint -p tsconfig.json"
+    "lint": "tslint -p tsconfig.json",
+    "prepublishOnly": "yarn test && yarn build"
   },
   "bugs": {
     "url": "https://github.com/wang-jun-coder/lerna-example/issues"
