@@ -9,7 +9,10 @@
   		"ignoreChanges": ["*.md"],
   		"message": "chore(none): publish",
   		"registry": "https://registry.npmjs.org"
-  	}
+  	},
+  	"version": {
+      "conventionalCommits": true
+    }
   },
   "version": "independent"
 }
