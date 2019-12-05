@@ -10,7 +10,8 @@
     }
   },
   "scripts": {
-   "commit": "git-cz"
+   "commit": "git-cz",
+   "build": "lerna run build --stream"
  },
  "config": {
     "commitizen": {
